@@ -1,0 +1,17 @@
+.show-times{
+    .nav{
+        .nav-item{
+            .nav-link {
+                opacity: 0.5;
+                img {
+                    width: 4rem;
+                    height: 4rem;
+                    
+                }
+            }
+            .active {
+                opacity: 1;
+            }
+        }
+    }
+}

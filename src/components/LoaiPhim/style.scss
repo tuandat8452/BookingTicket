@@ -1,0 +1,24 @@
+.nav {
+    border-bottom: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 0;
+    .nav-item {
+        font-size: 1.3rem;
+        .active {
+            font-size: 1.8rem;
+            color: #fa5238 !important;
+            background-color: #fafafa;
+        }
+        a {
+            border: none !important;
+            color: #000;
+            font-weight: 600;
+            &:hover {
+                font-size: 1.8rem;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+    }
+}

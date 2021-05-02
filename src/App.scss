@@ -1,0 +1,24 @@
+@import "../src/components/PageLoading/style.scss";
+@import "../src/components/NavbarHome/style.scss";
+@import "../src/components/Carousel/style.scss";
+@import "../src/components/LoaiPhim/style.scss";
+@import "../src/components/LoaiPhim/PhimDangChieu/style.scss";
+@import "../src/components/LoaiPhim/PhimDangChieuItem/style.scss";
+@import "../src/components/LoaiPhim/PhimSapChieu/style.scss";
+@import "../src//components/ShowTimes/SystemCinema/style.scss";
+@import "../src/components/News/style.scss";
+@import "../src/components/Application/style.scss";
+@import "../src/components/Footer/style.scss";
+@import "../src/container/HomeTemplate/Detail/style.scss";
+@import "../src/container/Login/style.scss";
+@import "../src/container/Signup/style.scss";
+@import "../src/container/PageNotFound/style.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
